@@ -2,8 +2,9 @@ def my_collect(array)
   new_array = []
   counter = 0
   array.collect do |x|
+    new_array.push(array[i])
     counter += 1
   end
-  return array 
+  return new_array 
 end 
 
