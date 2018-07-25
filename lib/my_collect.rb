@@ -1,6 +1,6 @@
 def my_collect(array)
     counter = 0
-    array do |x|
+    array.collect do |x|
       counter += 1
   end
   return array 
